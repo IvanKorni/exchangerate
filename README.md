@@ -1,21 +1,21 @@
-##Сервис выдачи gif в зависимости от курса
+## Сервис выдачи gif в зависимости от курса
 
 
-###Стэк:
+### Стэк:
 Java 11/ Spring boot/ Lombok/ Gradle
 
-###Запуск:
+### Запуск:
 
-####Gradle:
+#### Gradle:
 build.gradle 
 
 run ExrateApplication
 
-####Docker:
+#### Docker:
 
 docker build -t exrate .
 
 docker run -p 8080:8080 exrate
 
-####Endpoint:
+#### Endpoint:
 get /api/gif/{currency}
